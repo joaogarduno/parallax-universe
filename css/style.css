@@ -1,0 +1,143 @@
+/*
+
+Author: Joao Ivan Garduño Salgado
+URL Author: joaogarduno.github.io/profile
+Version: 1.0
+License:
+
+*/
+/*
+
+COLORS:
+#C7B1A4 -> BEIGE
+#825E50 -> CAFE
+#584C4C -> CAFE(CAPA)
+#FBFBFB -> BLANCO
+#AEAAA9 -> GRIS
+
+OTROS:
+#E1D6C2 -> BEIGE
+#795348 -> CAFE
+#4E4C51 -> GRIS CAPA
+#5F5C63 -> GRIS CAPA2
+#F4F3EF -> BLANCO
+#847F7B -> GRIS
+#73746C -> VERDE MILITAR
+#625149 -> OTRO CAFE
+
+*/
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* FS */
+html{
+    background: #FFEFBA;
+    color: #FBFBFB;
+    /*background: #FFEFBA;*/
+    /*background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  */
+    /*background: linear-gradient(to top, #FFFFFF, #FFEFBA);*/ 
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.6rem;    
+	line-height: 1.5;
+}
+/* TITLES */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Sora', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+/* HTML5 */
+header, nav, main, section, article, figure, footer{
+    width: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+/* A */
+a{
+    text-decoration: none;
+}
+/* IMG */
+img{
+    max-width: 100%;
+}
+/* BUTTON */
+button{
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ================================================ */
+/* CONTAINER */
+/* ================================================ */
+.container{
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+/* ================================================ */
+/* SECTIONS & ARTICLES*/
+/* ================================================ */
+.sectionContent{
+    margin: 2.5rem 0;
+    /* padding: 2.5rem 0; */
+}
+.articleContent{
+    padding: 1.0rem 0;
+}
+/* ================================================ */
+/* ROWS & COLUMS */
+/* ================================================ */
+.row-container{
+    width: 100%;
+}
+.col-container{
+    width: 100%;
+}

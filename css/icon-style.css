@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?imagpn');
+  src:  url('../fonts/icomoon.eot?imagpn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?imagpn') format('truetype'),
+    url('../fonts/icomoon.woff?imagpn') format('woff'),
+    url('../fonts/icomoon.svg?imagpn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mastercard:before {
+  content: "\e908";
+  color: #eb001b;
+}
+.icon-paypal:before {
+  content: "\e906";
+  color: #00457c;
+}
+.icon-visa:before {
+  content: "\e907";
+  color: #142787;
+}
+.icon-chat:before {
+  content: "\e904";
+}
+.icon-email:before {
+  content: "\e905";
+}
+.icon-local_grocery_store:before {
+  content: "\e900";
+}
+.icon-person:before {
+  content: "\e901";
+}
+.icon-search:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
