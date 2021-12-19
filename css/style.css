@@ -15,7 +15,7 @@ COLORS:
 #FBFBFB -> BLANCO
 #AEAAA9 -> GRIS
 
-OTROS:
+OTHERS:
 #E1D6C2 -> BEIGE
 #795348 -> CAFE
 #4E4C51 -> GRIS CAPA
@@ -26,6 +26,14 @@ OTROS:
 #625149 -> OTRO CAFE
 
 */
+/* VARIABLES */
+:root{
+    /* COLORES */
+    --color-back: #FFEFBA;
+    --color-box: #FBFBFB;
+    --color-text: #E1D6C2;
+    --color-title: #795348;
+}
 *, ::after, ::before{
     box-sizing: border-box;
 }
@@ -54,8 +62,10 @@ time, mark, audio, video {
 }
 /* FS */
 html{
-    background: #FFEFBA;
-    color: #FBFBFB;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: var(--color-back);
+    /* background-color: #FFEFBA;
+    color: #FBFBFB; */
     /*background: #FFEFBA;*/
     /*background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  */
     /*background: linear-gradient(to top, #FFFFFF, #FFEFBA);*/ 
@@ -63,17 +73,24 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.6rem;    
 	line-height: 1.5;
 }
 /* TITLES */
 h1, h2, h3, h4, h5, h6{
+    color: var(--color-title);
     font-family: 'Sora', sans-serif;
     font-size: 2.5rem;
-    font-weight: bolder;
+    font-weight: bold;
+    line-height: 2.6rem;
     letter-spacing: 1px;
     text-transform: capitalize;
+}
+/* TEXT */
+p{
+    color: var(--color-text);
+    font-weight: 500;
+    line-height: 1.8rem;
 }
 /* HTML5 */
 header, nav, main, section, article, figure, footer{
@@ -97,8 +114,9 @@ img{
 }
 /* BUTTON */
 button{
+    background-color: var(--color-back);
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     letter-spacing: normal;
 }
@@ -141,3 +159,30 @@ table {
 .col-container{
     width: 100%;
 }
+/* ================================================ */
+/* MEDIAQUERIES */
+/* ================================================ */
+/*----------------------------------------
+    480PX
+------------------------------------------*/
+@media screen and (min-width: 480px){}
+/*----------------------------------------
+    576PX
+------------------------------------------*/
+@media screen and (min-width: 576px){}
+/*----------------------------------------
+    768PX
+------------------------------------------*/
+@media screen and (min-width: 768px){}
+/*----------------------------------------
+    992PX
+------------------------------------------*/
+@media screen and (min-width: 992px){}
+/*----------------------------------------
+    1024PX
+------------------------------------------*/
+@media screen and (min-width: 1024px){}
+/*----------------------------------------
+    1200PX
+------------------------------------------*/
+@media screen and (min-width: 1200px){}
