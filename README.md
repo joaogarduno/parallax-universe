@@ -1,2 +1,2 @@
 # parallaxUniverse
-This is a Toy Stoy, is all about collection figures
+This is a Toy Store, is all about collection figures
